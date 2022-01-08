@@ -10,5 +10,10 @@ def show():
     return render_template("show.html")
 
 
+@app.route("/xiaoyuanquan")
+def xiaoyuanquan():
+    return render_template("xiaoyuanquan.html")
+
+
 if __name__ == '__main__':
     app.run()
